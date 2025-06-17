@@ -1,0 +1,40 @@
+body {
+  background: url('./assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  min-height: 100vh;
+}
+.app {
+  padding: 1rem;
+  max-width: 600px;
+  margin: auto;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+.logo {
+  width: 180px;
+  display: block;
+  margin: 0 auto 20px;
+}
+.produits {
+  margin-bottom: 20px;
+}
+.produit {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.quantite button {
+  width: 30px;
+}
+.quantite input {
+  width: 40px;
+  text-align: center;
+}
+.paiement input[type="number"] {
+  display: block;
+  margin: 10px 0;
+}
